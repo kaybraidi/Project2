@@ -96,14 +96,14 @@ section {
   margin-top: .5em;
 }
 
-#first {
+.first {
   background-color: #dad6e0;
   display: block;
   padding: 5px;
 
 }
 
-#second {
+.second {
   background-color: #ebd7eb;
   display: block;
   padding: 5px;
