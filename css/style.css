@@ -1,5 +1,5 @@
 html{
-  background:#e6e8e5;
+  background:#2e3b45;
 }
 body{
   max-width: 80%;
@@ -13,7 +13,7 @@ body{
   height: auto;
 }
 
-.header {
+header {
   color: #e6e8e5;
   padding: 15px;
   text-align: center;
@@ -24,40 +24,54 @@ body{
   margin-bottom:.5em;
 }
 
-nav {
-  position: relative;
-  align-content: center;
-  background-color: #fe5957;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+#main-navbar{
+    overflow: hidden;
+ }
 
+ #navbar-container{
+     width: 100%;
+     float: left;
+     background-color: #fe5957;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     position: relative;
+     align-content: center;
 }
 
-nav ul {
-  overflow: hidden;
+#navbar-container ul{
+   margin: 2px;
+   padding: 2px;
+   float: left;
+   list-style-type: none;
+   position: relative;
+   left: 50%;
   display: inline-block;
-  margin: 2px;
-  padding: 2px;
 }
 
-nav li {
-  float: left;
+#navbar-container ul li{
+    float: left;
+    display: block;
+    position: relative;
+    right: 50%;
 }
 
-li a {
+#navbar-container ul li a{
+  padding: 15px 17px;
+  text-decoration: none;
   display: block;
   color: #e6e8e5;
   font-size: 20px;
   text-align: left;
-  padding: 15px 17px;
-  text-decoration: none;
-
 }
 
-li a:hover {
+#navbar-container ul li a:hover {
   background-color: #e3e931;
   border-radius: 25px;
   color: #2b2f52;
+}
+
+#onpage {
+  text-decoration: underline overline;
 }
 
 h2 {
