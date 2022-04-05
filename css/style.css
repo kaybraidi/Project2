@@ -89,7 +89,7 @@ ol {
   list-style-position: inside
 }
 
-section {
+#section {
   display: block;
   padding-bottom: 10px;
   margin-bottom: .5em;
