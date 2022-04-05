@@ -1,16 +1,16 @@
 html{
-    background:#e6e8e5;
+  background:#e6e8e5;
 }
 body{
-    max-width: 80%;
-    margin: auto;
-    background: #ffffff;
-    padding: 2em 2em 2em 2em;
-    box-shadow: 0.5rem 0.5rem #703393, -0.5rem -0.5rem #c5037d;
-    color: #545454;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    align-content: center;
-    height: auto;
+  max-width: 80%;
+  margin: auto;
+  background: #ffffff;
+  padding: 2em 2em 2em 2em;
+  box-shadow: 0.5rem 0.5rem #703393, -0.5rem -0.5rem #c5037d;
+  color: #545454;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  align-content: center;
+  height: auto;
 }
 
 .header {
@@ -25,86 +25,86 @@ body{
 }
 
 nav {
-	position: relative;
-    align-content: center;
-	background-color: #fe5957;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  position: relative;
+  align-content: center;
+  background-color: #fe5957;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 
 }
 
 nav ul {
-    overflow: hidden;
-    display: inline-block;
-    margin: 2px;
-    padding: 2px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
 }
 
 nav li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    color: #e6e8e5;
-    font-size: 20px;
-    text-align: left;
-    padding: 15px 17px;
-    text-decoration: none;
+  display: block;
+  color: #e6e8e5;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px 17px;
+  text-decoration: none;
 
 }
 
 li a:hover {
-    background-color: #e3e931;
-    border-radius: 25px;
-    color: #2b2f52;
+  background-color: #e3e931;
+  border-radius: 25px;
+  color: #2b2f52;
 }
 
 h2 {
-    color: #600db0;
-    font-size: 20px;
-    padding-bottom: .5em;
-    padding-top: .5em;
-    font-weight: bold;
+  color: #600db0;
+  font-size: 20px;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  font-weight: bold;
 }
 
 ol {
-    list-style-type: square;
-    list-style-position: inside
+  list-style-type: square;
+  list-style-position: inside
 }
 
 section {
- display: block;
- padding-bottom: 10px;
- margin-bottom: .5em;
- margin-top: .5em;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
 
 .first {
- background-color: #effffd;
+  background-color: #effffd;
 }
 
 .second {
- background-color: #aaeeee;
+  background-color: #aaeeee;
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 h3 {
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 h4 {
-    font-style: oblique;
+  font-style: oblique;
 }
 
 iframe {
-     width: 560px;
-     height: 315px;
+  width: 560px;
+  height: 315px;
 }
 
 .center {
