@@ -1,5 +1,5 @@
 html{
-  background:#2e3b45;
+  background: #373854;
 }
 body{
   max-width: 80%;
@@ -17,10 +17,10 @@ header {
   color: #e6e8e5;
   padding: 15px;
   text-align: center;
-  background-color: #3c91de;
+  background-color: #e86af0;
   font-size: 3em;
   font-weight: bold;
-  box-shadow: 0.5rem 0.5rem #703393, -0.5rem -0.5rem #c5037d;
+  box-shadow: 0.5rem 0.5rem #493267, -0.5rem -0.5rem #9e379f;
   margin-bottom:.5em;
 }
 
@@ -31,7 +31,7 @@ header {
 #navbar-container{
    width: 100%;
    float: left;
-   background-color: #fe5957;
+   background-color: #9e379f;
    border-top-left-radius: 20px;
    border-bottom-right-radius: 20px;
    position: relative;
@@ -65,17 +65,19 @@ header {
 }
 
 #navbar-container ul li a:hover {
-  background-color: #e3e931;
+  background-color: #e86af0;
   border-radius: 25px;
-  color: #2b2f52;
+  color: #493267;
 }
 
 #onpage {
-  text-decoration: underline overline;
+  background-color: #7bb3ff;
+  border-radius: 25px;
+  color: #493267;
 }
 
 h2 {
-  color: #600db0;
+  color: #493267;
   font-size: 20px;
   padding-bottom: .5em;
   padding-top: .5em;
@@ -95,11 +97,19 @@ section {
 }
 
 .first {
-  background-color: #effffd;
+  background-color: #dad6e0;
+  display: block;
+  padding-left: 5px;
+  padding right: 5px;
+
 }
 
 .second {
-  background-color: #aaeeee;
+  background-color: #ebd7eb;
+  display: block;
+  padding-left: 5px;
+  padding right: 5px;
+
 }
 
 p {
