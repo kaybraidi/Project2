@@ -25,34 +25,34 @@ header {
 }
 
 #main-navbar{
-    overflow: hidden;
- }
+  overflow: hidden;
+}
 
- #navbar-container{
-     width: 100%;
-     float: left;
-     background-color: #fe5957;
-     border-top-left-radius: 20px;
-     border-bottom-right-radius: 20px;
-     position: relative;
-     align-content: center;
+#navbar-container{
+   width: 100%;
+   float: left;
+   background-color: #fe5957;
+   border-top-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   position: relative;
+   align-content: center;
 }
 
 #navbar-container ul{
-   margin: 2px;
-   padding: 2px;
-   float: left;
-   list-style-type: none;
-   position: relative;
-   left: 50%;
+  margin: 2px;
+  padding: 2px;
+  float: left;
+  list-style-type: none;
+  position: relative;
+  left: 50%;
   display: inline-block;
 }
 
 #navbar-container ul li{
-    float: left;
-    display: block;
-    position: relative;
-    right: 50%;
+  float: left;
+  display: block;
+  position: relative;
+  right: 50%;
 }
 
 #navbar-container ul li a{
